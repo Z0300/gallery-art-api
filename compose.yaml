@@ -1,0 +1,26 @@
+﻿services:
+  davian.api:
+    image: davian.api
+    build:
+      context: .
+      dockerfile: Davian.Api/Dockerfile
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "${SA_PASSWORD}" 
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    restart: always
+
+volumes:
+  sqlserver_data:
+    
+  

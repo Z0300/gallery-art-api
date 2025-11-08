@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Davian.Api", "Davian.Api\Davian.Api.csproj", "{4EBDB028-AB55-41AE-96CA-C1AE956B850D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A72887A1-6355-448D-A759-BBDAE4B7EF8E}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EBDB028-AB55-41AE-96CA-C1AE956B850D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBDB028-AB55-41AE-96CA-C1AE956B850D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBDB028-AB55-41AE-96CA-C1AE956B850D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBDB028-AB55-41AE-96CA-C1AE956B850D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
